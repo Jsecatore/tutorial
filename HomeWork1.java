@@ -29,6 +29,8 @@ class HomeWork1
 		
 		for(int i=0;i<myArray.length;i++)// Generate random numbers between 0 and 10000000 to populate the array
 			myArray[i]=generator.nextInt(10000001);
+         
+         
 			
 		
 		long total = System.currentTimeMillis()-t1;//execution time of array # generation and population
@@ -45,3 +47,5 @@ class HomeWork1
 		
 	}
 }
+
+// additional code added for github test
